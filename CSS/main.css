@@ -1,0 +1,75 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding-bottom: 20px;
+}
+.item{
+    position: relative;
+}
+/* title style  */
+h1{
+    font-style: italic;
+    color: rgb(56, 15, 15);
+}
+
+/* inside text  */
+.layer-text{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    bottom: 10px;
+    right: 25%;
+
+}
+.layer{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    bottom: 50px;
+    right: 25%;
+
+}
+
+.layer-text p{
+    font-size: 20px;
+    color: rgb(20, 20, 48);
+}
+
+                /* fixed box  */
+.fixed-box{
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.parent{
+    width: 40%;
+    position: relative;
+}
+i{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+#close-btn{
+    top: 15px;
+    right: 15px;
+}
+
+#left-btn{
+    top: 50%;
+    left: 15px;
+}
+#right-btn{
+    top: 50%;
+    right: 15px;
+}
